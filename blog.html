@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Este es el blog</title>
+</head>
+<style>
+    html{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        font-family: sans-serif;
+        background-color: rgb(245, 188, 177);
+        padding: 0px;
+        margin: 0px;
+    }
+
+    h1{
+        text-align: center;
+    }
+    p{
+        margin: 30px;
+        background-color: red;
+        padding: 25px;
+        font-weight: bold;
+        color: white;
+    }
+    .cajamenu{
+        margin: 0px;
+        padding: 0px;
+    }
+    .cajamenu ul{
+       /* border: 2px solid black;  */
+       background-color: lemonchiffon;
+       display: flex;
+       flex-direction:row;
+       flex-wrap: nowrap;
+       justify-content: flex-start;
+       padding: 0px;
+       margin: 0px;
+       padding-left: 30px;
+    }
+    .cajamenu li{
+        /* border: 2px solid black; */
+        list-style: none;
+        padding: 20px;
+        user-select: none;
+    }
+    .cajamenu li:hover{
+        background-color: lawngreen;
+    }
+    .formulario{
+        background-color: lemonchiffon;
+        margin: 30px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    .formulario .circulo{
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        border-radius: 100%;
+        margin-right: 10px;
+    }
+    .formulario label{
+        display: flex;
+        flex-direction: row;
+    }
+</style>
+<body>
+    <h1> Este es el blog</h1>
+    <div class="cajamenu">
+        <ul>
+            <li>Home</li>
+            <li>Blog</li>
+            <li>About me</li>
+            <li>More info</li>
+            <li>Login</li>
+        </ul> 
+    </div>
+ 
+    <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam molestias distinctio ex ullam sapiente tenetur illum aut perspiciatis numquam. Itaque explicabo ab repudiandae minus perspiciatis ullam fugiat cum eum hic!
+    Quis omnis voluptate nihil enim praesentium, optio voluptatum alias dignissimos illo quo similique excepturi? Doloremque iusto vitae aperiam dolores suscipit aut quos porro, rem, dolore maxime optio harum aspernatur odio?
+    Mollitia libero praesentium, aspernatur placeat dolor repellat pariatur, debitis harum sunt reprehenderit quasi dignissimos officiis amet laboriosam, dolore delectus dolorem? Alias, doloribus voluptas nesciunt odit nisi nobis veniam rerum fuga.
+    </p>
+    <div class="formulario">
+        <label><div class="circulo"></div>Login:<input type="text" maxlength="10"></label>
+        <label><div class="circulo"></div>Register:<input type="text" maxlength="10"></label>
+    </div>
+</body>
+</html>
